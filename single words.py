@@ -1,0 +1,5 @@
+sentence=input("enter a few words")
+l=sentence.split(",")
+singlewords=list(set(l))
+singlewords.sort()
+print(singlewords)
